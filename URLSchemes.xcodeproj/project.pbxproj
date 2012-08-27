@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37152B0515EBD19B0073A628 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 37152B0415EBD19B0073A628 /* README.markdown */; };
 		37451D7215C2F10900327D82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37451D7115C2F10900327D82 /* UIKit.framework */; };
 		37451D7415C2F10900327D82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37451D7315C2F10900327D82 /* Foundation.framework */; };
 		37451D7615C2F10900327D82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37451D7515C2F10900327D82 /* CoreGraphics.framework */; };
@@ -15,9 +16,12 @@
 		37451D8215C2F10900327D82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37451D8115C2F10900327D82 /* AppDelegate.m */; };
 		37451D8515C2F10900327D82 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37451D8315C2F10900327D82 /* MainStoryboard.storyboard */; };
 		37451D8815C2F10900327D82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37451D8715C2F10900327D82 /* ViewController.m */; };
+		37451D9515C2F86500327D82 /* URLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 37451D9415C2F86500327D82 /* URLParser.m */; };
+		37451D9815C2F87800327D82 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 37451D9715C2F87800327D82 /* NSString+URLEncoding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37152B0415EBD19B0073A628 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		37451D6D15C2F10900327D82 /* URLSchemes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLSchemes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37451D7115C2F10900327D82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		37451D7315C2F10900327D82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,6 +35,10 @@
 		37451D8415C2F10900327D82 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		37451D8615C2F10900327D82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		37451D8715C2F10900327D82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37451D9315C2F86500327D82 /* URLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLParser.h; sourceTree = "<group>"; };
+		37451D9415C2F86500327D82 /* URLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLParser.m; sourceTree = "<group>"; };
+		37451D9615C2F87800327D82 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		37451D9715C2F87800327D82 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +90,9 @@
 				37451D8315C2F10900327D82 /* MainStoryboard.storyboard */,
 				37451D8615C2F10900327D82 /* ViewController.h */,
 				37451D8715C2F10900327D82 /* ViewController.m */,
+				37451D9915C2F87C00327D82 /* Util */,
 				37451D7815C2F10900327D82 /* Supporting Files */,
+				37152B0415EBD19B0073A628 /* README.markdown */,
 			);
 			path = URLSchemes;
 			sourceTree = "<group>";
@@ -96,6 +106,17 @@
 				37451D7F15C2F10900327D82 /* URLSchemes-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37451D9915C2F87C00327D82 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				37451D9315C2F86500327D82 /* URLParser.h */,
+				37451D9415C2F86500327D82 /* URLParser.m */,
+				37451D9615C2F87800327D82 /* NSString+URLEncoding.h */,
+				37451D9715C2F87800327D82 /* NSString+URLEncoding.m */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +172,7 @@
 			files = (
 				37451D7C15C2F10900327D82 /* InfoPlist.strings in Resources */,
 				37451D8515C2F10900327D82 /* MainStoryboard.storyboard in Resources */,
+				37152B0515EBD19B0073A628 /* README.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +186,8 @@
 				37451D7E15C2F10900327D82 /* main.m in Sources */,
 				37451D8215C2F10900327D82 /* AppDelegate.m in Sources */,
 				37451D8815C2F10900327D82 /* ViewController.m in Sources */,
+				37451D9515C2F86500327D82 /* URLParser.m in Sources */,
+				37451D9815C2F87800327D82 /* NSString+URLEncoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +303,7 @@
 				37451D8D15C2F10900327D82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UITextView *outgoingURLTextView;
+@property (weak, nonatomic) IBOutlet UITextView *urlDataTextView;
+
+- (IBAction)canOpenURLButtonPressed:(id)sender;
+- (IBAction)openURLButtonPressed:(id)sender;
+
+- (void)showBadURLAlert;
+- (BOOL)canOpenURLForString:(NSString *)urlString;
+- (BOOL)handleIncomingURL:(NSURL *)url;
 
 @end
