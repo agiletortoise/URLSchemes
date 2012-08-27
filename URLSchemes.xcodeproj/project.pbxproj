@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37152B0515EBD19B0073A628 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 37152B0415EBD19B0073A628 /* README.markdown */; };
+		37152B0515EBD19B0073A628 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 37152B0415EBD19B0073A628 /* README.md */; };
 		37451D7215C2F10900327D82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37451D7115C2F10900327D82 /* UIKit.framework */; };
 		37451D7415C2F10900327D82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37451D7315C2F10900327D82 /* Foundation.framework */; };
 		37451D7615C2F10900327D82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37451D7515C2F10900327D82 /* CoreGraphics.framework */; };
@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		37152B0415EBD19B0073A628 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		37152B0415EBD19B0073A628 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		37451D6D15C2F10900327D82 /* URLSchemes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLSchemes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37451D7115C2F10900327D82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		37451D7315C2F10900327D82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,7 +92,7 @@
 				37451D8715C2F10900327D82 /* ViewController.m */,
 				37451D9915C2F87C00327D82 /* Util */,
 				37451D7815C2F10900327D82 /* Supporting Files */,
-				37152B0415EBD19B0073A628 /* README.markdown */,
+				37152B0415EBD19B0073A628 /* README.md */,
 			);
 			path = URLSchemes;
 			sourceTree = "<group>";
@@ -172,7 +172,7 @@
 			files = (
 				37451D7C15C2F10900327D82 /* InfoPlist.strings in Resources */,
 				37451D8515C2F10900327D82 /* MainStoryboard.storyboard in Resources */,
-				37152B0515EBD19B0073A628 /* README.markdown in Resources */,
+				37152B0515EBD19B0073A628 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
