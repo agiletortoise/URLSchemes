@@ -13,6 +13,7 @@
 
 + (void)examples
 {
+    // Example of safe generation of URL with parameters
     NSString *urlString = @"test://action?param1=%@&params2=%@";
     NSString *p1 = @"Hello World";
     NSString *p2 = @"You’re Awesome";

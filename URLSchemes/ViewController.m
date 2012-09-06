@@ -22,7 +22,7 @@
 - (void)viewDidLoad
 {
     NSLog(@"viewDidLoad");
-    [Scratchpad examples];
+    [Scratchpad examples]; // just to dump examples to log
     [super viewDidLoad];
 }
 
