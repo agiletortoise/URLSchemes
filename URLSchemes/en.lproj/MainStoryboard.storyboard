@@ -15,7 +15,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="urlschemes://test" id="ofz-Ag-5WS" userLabel="urlReceivedDataTextView">
-                                <rect key="frame" x="9" y="264" width="302" height="184"/>
+                                <rect key="frame" x="9" y="264" width="302" height="109"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.92985081670000003" green="0.92985081670000003" blue="0.92985081670000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -75,6 +75,36 @@
                                     <action selector="openURLButtonPressed:" destination="2" eventType="touchUpInside" id="MFE-Ju-Jz2"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="je8-lT-wNy">
+                                <rect key="frame" x="9" y="403" width="144" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Drafts:Launch">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="launchDraftsButtonPressed:" destination="2" eventType="touchUpInside" id="Al9-5k-925"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cvT-de-jXz">
+                                <rect key="frame" x="166" y="403" width="145" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Drafts:New">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="newDraftButtonPressed:" destination="2" eventType="touchUpInside" id="oF4-sZ-PBN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.90425407889999998" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -91,6 +121,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
                 <relationship kind="action" name="canOpenURLButtonPressed:"/>
+                <relationship kind="action" name="launchDraftsButtonPressed:"/>
                 <relationship kind="action" name="openURLButtonPressed:"/>
                 <relationship kind="outlet" name="outgoingURLTextView" candidateClass="UITextView"/>
                 <relationship kind="outlet" name="urlDataTextView" candidateClass="UITextView"/>

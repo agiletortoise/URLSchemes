@@ -14,6 +14,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSLog(@"application:didFinishLaunchingWithOptions:");
     viewController = (ViewController *)self.window.rootViewController;
 
     return YES;
@@ -21,6 +22,7 @@
 
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
 {
+    NSLog(@"application:openURL:sourceApplication:annotation:");
     // Called when application is launch using a URL
     NSLog(@"openURL: %@", [url absoluteString]);
     NSLog(@"sourceApplication: %@", sourceApplication);
@@ -33,18 +35,22 @@
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
+    NSLog(@"applicationWillResignActive:");
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
+    NSLog(@"applicationDidEnterBackground:");
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
+    NSLog(@"applicationWillEnterForeground:");
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
+    NSLog(@"applicationDidBecomeActive:");
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application

@@ -15,6 +15,8 @@
 
 - (IBAction)canOpenURLButtonPressed:(id)sender;
 - (IBAction)openURLButtonPressed:(id)sender;
+- (IBAction)launchDraftsButtonPressed:(id)sender;
+- (IBAction)newDraftButtonPressed:(id)sender;
 
 - (void)showBadURLAlert;
 - (BOOL)canOpenURLForString:(NSString *)urlString;

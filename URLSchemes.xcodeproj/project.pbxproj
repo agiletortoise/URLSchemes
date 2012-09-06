@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370E0FA415F39132000C11F8 /* Scratchpad.m in Sources */ = {isa = PBXBuildFile; fileRef = 370E0FA315F39132000C11F8 /* Scratchpad.m */; };
 		37152B0815EBD2BB0073A628 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 37152B0715EBD2BB0073A628 /* README.md */; };
 		37451D7215C2F10900327D82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37451D7115C2F10900327D82 /* UIKit.framework */; };
 		37451D7415C2F10900327D82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37451D7315C2F10900327D82 /* Foundation.framework */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		370E0FA215F39132000C11F8 /* Scratchpad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scratchpad.h; sourceTree = "<group>"; };
+		370E0FA315F39132000C11F8 /* Scratchpad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scratchpad.m; sourceTree = "<group>"; };
 		37152B0715EBD2BB0073A628 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		37451D6D15C2F10900327D82 /* URLSchemes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLSchemes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37451D7115C2F10900327D82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -93,6 +96,8 @@
 				37451D8715C2F10900327D82 /* ViewController.m */,
 				37451D9915C2F87C00327D82 /* Util */,
 				37451D7815C2F10900327D82 /* Supporting Files */,
+				370E0FA215F39132000C11F8 /* Scratchpad.h */,
+				370E0FA315F39132000C11F8 /* Scratchpad.m */,
 			);
 			path = URLSchemes;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 				37451D8815C2F10900327D82 /* ViewController.m in Sources */,
 				37451D9515C2F86500327D82 /* URLParser.m in Sources */,
 				37451D9815C2F87800327D82 /* NSString+URLEncoding.m in Sources */,
+				370E0FA415F39132000C11F8 /* Scratchpad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
